@@ -191,5 +191,5 @@ with tf.Session() as sess:
                                                       keep_prob: 1.0})
             print("Iter " + str(i) + ", Testing Accuracy= " + str(test_acc) + ", Train Accuracy= " + str(train_acc))
 
-    train_writer.close()
-    test_writer.close()
+train_writer.close()
+test_writer.close()

@@ -83,6 +83,7 @@ with tf.Session() as sess:
     # feed的数据以字典的形式传入，即不用在上面给imput1和imput2复制，可以通过下面的feed_dict喂给
     print(sess.run(output, feed_dict={input1: [7.], input2: [2.]}))
 
+    
 # ------------------------------------------- 2-4 拟合线性函数的k和b -------------------------------------------
 
 import numpy as np
